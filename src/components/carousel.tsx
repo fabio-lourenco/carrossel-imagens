@@ -4,7 +4,7 @@ import { ReactElement } from "react";
 
 import { dataImage } from "../data/data";
 
-import { Dimensions, Image, SafeAreaView, StyleSheet, Text, View } from "react-native"
+import { Dimensions, Image, SafeAreaView, StyleSheet, Text, View } from "react-native";
 
 import Carousel from "react-native-reanimated-carousel";
 
