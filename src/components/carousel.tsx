@@ -41,6 +41,11 @@ export const BannerImage = () => {
           loop={false}
           width={width}
           height={width / 2}
+          mode="parallax"
+          modeConfig={{
+            parallaxScrollingScale: 0.9,
+            parallaxScrollingOffset: 100,
+          }}
         />
     </SafeAreaView>
   );
